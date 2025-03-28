@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/joker/DZ-BETA-1.0.0/main/DZ-BETA-1"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Danar4ikBG123/DZ-BETA-1.0.0/main/DZ-BETA-1.0.0"))()
 --[[ 
 local colors = {
     -- Цвет фона у Секций
