@@ -1,5 +1,5 @@
 -- Ссылка на Библиотеку
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Danar4ikBG123/byjoker/main/DZ-BETA-1.0.0"))()
+local Library = none
 --[[ 
 В данный момент стоит тема "RJTheme3" ,
 вы можете использовать другую тему приведённую ниже -
@@ -19,29 +19,29 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Danar
 ]]
 --[[
 local colors = {
-    -- Цвет фона у Секций
+	-- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(150, 72, 148),
-    -- Цвет фона в правой части UI
-    Background = Color3.fromRGB(15,15,15),
-    -- Цвет фона в левой части UI
+	-- Цвет фона в правой части UI
+	Background = Color3.fromRGB(15,15,15),
+	-- Цвет фона в левой части UI
     Header = Color3.fromRGB(15,15,15),
-    -- Цвет текста
+	-- Цвет текста
     TextColor = Color3.fromRGB(255,255,255),
-    -- Цвет фона у кнопок
+	-- Цвет фона у кнопок
     ElementColor = Color3.fromRGB(20, 20, 20)
 }
 ]]
 -- Создать окно UI
-local Window = Library.CreateLib("Name", "RJTheme3")
+local Window = Library.CreateLib("DZ-BETA-1.0.0 (by joker)", "RJTheme3")
 
 -- Секция
-local Tab = Window:NewTab("TabName")
+local Tab = Window:NewTab("Функционал")
 
 -- Подсекция
-local Section = Tab:NewSection("Section Name")
+local Section = Tab:NewSection("Кнопки")
 
 -- Заголовок
-Section:NewLabel("LabelText")
+Section:NewLabel("TEST")
 
 -- Кнопка
 Section:NewButton("ButtonText", "ButtonInfo", function()
@@ -64,12 +64,12 @@ end)
 
 -- Текст Бокс
 Section:NewTextBox("TextboxText", "TextboxInfo", function(txt)
-    print(txt)
+	print(txt)
 end)
 
 -- Бинд на клавиши
 Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
-    print("You just clicked the bind")
+	print("You just clicked the bind")
 end)
 
 -- Дропдаун
