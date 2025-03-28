@@ -1,5 +1,23 @@
+-- Ссылка на Библиотеку
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Danar4ikBG123/byjoker/main/DZ-BETA-1.0.0"))()
 --[[ 
+В данный момент стоит тема "RJTheme3" ,
+вы можете использовать другую тему приведённую ниже -
+"RJTheme1"
+"RJTheme2"
+"RJTheme3"
+"RJTheme4"
+"RJTheme5"
+"RJTheme6"
+"RJTheme7"
+"RJTheme8"
+//////////////////////////////////////////////////////////////////
+
+Что бы сделать свою тему , уберите часть скрипта из "комминтариев" ,
+который находится чуть ниже , и вместо "RJTheme3" в переменной "Windows" - 
+напишите переменную которая используется в скрипте чуть ниже .
+]]
+--[[
 local colors = {
     -- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(150, 72, 148),
@@ -14,13 +32,13 @@ local colors = {
 }
 ]]
 -- Создать окно UI
-local Window = Library.CreateLib("DZ-BETA-1.0.1 (by-joker)", "RJTheme3")
+local Window = Library.CreateLib("Name", "RJTheme3")
 
 -- Секция
-local Tab = Window:NewTab("Функционал")
+local Tab = Window:NewTab("TabName")
 
 -- Подсекция
-local Section = Tab:NewSection("Функции")
+local Section = Tab:NewSection("Section Name")
 
 -- Заголовок
 Section:NewLabel("LabelText")
@@ -58,4 +76,3 @@ end)
 Section:NewDropdown("DropdownText", "DropdownInf", {"Option 1", "Option 2", "Option 3"}, function(currentOption)
     print(currentOption)
 end)
-
