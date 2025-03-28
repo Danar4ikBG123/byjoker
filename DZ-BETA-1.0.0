@@ -1,5 +1,5 @@
 -- Ссылка на Библиотеку
-local Library = loadstring(game:HttpGet("https://https://raw.githubusercontent.com/Danar4ikBG123/byjoker/main/DZ-BETA-1.0.0"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Danar4ikBG123/byjoker/main/DZ-BETA-1.0.0"))()
 --[[ 
 В данный момент стоит тема "RJTheme3" ,
 вы можете использовать другую тему приведённую ниже -
